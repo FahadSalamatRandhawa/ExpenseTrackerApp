@@ -7,10 +7,11 @@ import { TransactionList } from './components/TransactionList';
 import { AddTransaction } from './components/AddTransaction';
 
 import { GlobalProvider } from './context/GlobalState';
+import { Room } from './components/background';
 
 function App() {
   return (
-    <GlobalProvider>
+    <GlobalProvider className="room">
       <Header/>
       <div className="container">
         <Balance/>
