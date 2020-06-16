@@ -5,11 +5,6 @@ html, body, #root, .room{
   margin: 0;
 }
 
-.Light {
-  background-color: white;
-  color: #333;
-}
-
 .Dark {
   background-color: #1a1919;
   color: #999;
@@ -25,11 +20,11 @@ html, body, #root, .room{
 
 
 .dark-mode nav {
-  background-color: #1b2938;
+  background-color: #2d2d2eec;
 }
 
 body {
-  background-color: #fff;
+  background-color: #2d2d2eec;
   display: flex;
   flex-direction: column;
   align-items: center;
