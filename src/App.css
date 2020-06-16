@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-html, body, #root, .room{
-  height: 100%;
-  margin: 0;
-}
 
 .Dark {
   background-color: #1a1919;
